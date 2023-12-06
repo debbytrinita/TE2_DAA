@@ -38,7 +38,7 @@ def knapsack_branch_and_bound(W,val,wt):
         elif step == 4:
             M, items, x, i, V_N, W0, z_hat, x_hat,step = replace(i,z_hat,V_N,W0,items,x_hat,x,U,M,m)
 
-        # Finisih
+        # Finish
         else:
             break
 
